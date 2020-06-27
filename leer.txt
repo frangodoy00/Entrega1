@@ -1,0 +1,15 @@
+Integrantes: Godoy Francisco, Maurino Martin
+
+Para iniciar el juego se debera ejecutar ScrabbleAR.py en alguna plataforma que lo permita,
+por ejemplo Visual Studio Code. Una vez ejecutado ese programa ya se manejara todo desde
+las interfaces.
+
+Para poder correr el programa y jugar al scrabble se debera tener instalado Python 3, el
+modulo Pattern y PySimpleGui. Este programa se puedo correr tanto en Windows como en Linux.
+
+Consideraciones: Hay que tener en cuenta que los valores de cada casillero coloreado no estan
+especificados, por lo tanto se explicaran a continuacion.
+Nivel Facil:
+    -Rojo: Resta 2 pts al total de la palabra formada.
+    -Verde: Multiplica por 2 el total de la palabra formada.
+    -Amarillo: Multiplica por 2 la letra que se encuentra en dicho casillero.
