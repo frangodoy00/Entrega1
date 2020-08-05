@@ -1,5 +1,4 @@
 import PySimpleGUI as sg
-
 def IngresandoNombre():
     """
     Esta función define la ventana para que el usuario pueda ingresar su nombre y dos botones: aceptar y exit
@@ -11,13 +10,15 @@ def IngresandoNombre():
     ]
     windowN = sg.Window('Scrabble', layout)
     event, values = windowN.read()
-    ok=False
     if event == ('Aceptar'):
-        ok=True
+        pass
     if event == ('Exit'):
         pass        
+    archivo = open("nombre.txt", 'w')
+    archivo.write(values[0])
+    archivo.close() 
     windowN.close()
-    return ok
+
 def partida():
     """
     Esta funcion define la ventana que se abrirá si el usuario toca el botón iniciar en el menú principal
@@ -32,12 +33,28 @@ def partida():
     while True:
         event, values = windowP.read()
         if event == ('Partida Nueva'):
-            ok=IngresandoNombre()
-            if ok:
-                import Tablero
+            IngresandoNombre()
+            archivo = open("partidaGuardada.txt", 'w')
+            archivo.write('no')
+            archivo.close()
+            import Tablero
             break 
         if event == ('Continuar'):
-            sg.popup('No hay ninguna partida guardada')        
+            try:
+                archivo = open("partidaGuardada.txt", 'r')
+                for linea in archivo.readlines():
+                    l=linea
+                if(l=='si'):
+                    import Tablero
+                    break
+                else:
+                    sg.popup('No hay ninguna partida guardada', font=('Ravie', 10)) 
+                archivo.close()
+            except(FileNotFoundError):
+                archivo = open("partidaGuardada.txt",'w')
+                archivo.write('no')
+                archivo.close()
+                sg.popup('No hay ninguna partida guardada', font=('Ravie', 10)) 
     windowP.close()
 
 sg.theme('LightYellow')

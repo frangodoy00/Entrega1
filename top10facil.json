@@ -1,10 +1,1 @@
-[{"1":"","puntos":0,"fecha":""},
- {"2":"","puntos":0,"fecha":""},
- {"3":"","puntos":0,"fecha":""},
- {"4":"","puntos":0,"fecha":""},
- {"5":"","puntos":0,"fecha":""},
- {"6":"","puntos":0,"fecha":""},
- {"7":"","puntos":0,"fecha":""},
- {"8":"","puntos":0,"fecha":""},
- {"9":"","puntos":0,"fecha":""},
- {"10":"","puntos":0,"fecha":""}]
+[{"nombre": "la", "puntos": 23, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 17, Minutos: 31, Segundos: 47"}, {"nombre": "lop", "puntos": 14, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 16, Minutos: 56, Segundos: 39"}, {"nombre": "sa", "puntos": 13, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 18, Minutos: 46, Segundos: 29"}, {"nombre": "as", "puntos": 11, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 19, Minutos: 06, Segundos: 22"}, {"nombre": "as", "puntos": 9, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 17, Minutos: 51, Segundos: 16"}, {"nombre": "fr", "puntos": 8, "fecha": "Dia :26, Mes: 07, Anio: 2020, Hora: 19, Minutos: 23, Segundos: 38"}, {"nombre": "as", "puntos": 8, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 18, Minutos: 59, Segundos: 13"}, {"nombre": "as", "puntos": 7, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 19, Minutos: 01, Segundos: 52"}, {"nombre": "as", "puntos": 6, "fecha": "Dia :01, Mes: 08, Anio: 2020, Hora: 18, Minutos: 52, Segundos: 11"}, {"nombre": "fr", "puntos": 4, "fecha": "Dia :26, Mes: 07, Anio: 2020, Hora: 19, Minutos: 25, Segundos: 04"}]

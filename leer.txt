@@ -10,6 +10,17 @@ modulo Pattern y PySimpleGui. Este programa se puedo correr tanto en Windows com
 Consideraciones: Hay que tener en cuenta que los valores de cada casillero coloreado no estan
 especificados, por lo tanto se explicaran a continuacion.
 Nivel Facil:
+    -Se puede ingresar cualquier palabra existente.
+    -Rojo: Resta 2 pts al total de la palabra formada.
+    -Verde: Multiplica por 2 el total de la palabra formada.
+    -Amarillo: Multiplica por 2 la letra que se encuentra en dicho casillero.
+Nivel Medio:
+    -Solo se pueden ingresar palabras que sean verbos o adjetivos.
+    -Rojo: Resta 2 pts al total de la palabra formada.
+    -Verde: Multiplica por 2 el total de la palabra formada.
+    -Amarillo: Multiplica por 2 la letra que se encuentra en dicho casillero.
+Nivel Dificil:
+    -Solo se pueden ingresar palabras que sean verbos.
     -Rojo: Resta 2 pts al total de la palabra formada.
     -Verde: Multiplica por 2 el total de la palabra formada.
     -Amarillo: Multiplica por 2 la letra que se encuentra en dicho casillero.
